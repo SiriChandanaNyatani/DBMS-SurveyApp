@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    tools:context=".QBSelect"
+    android:orientation="vertical"
+    android:background="@drawable/qm2">
+
+    <TextView
+        android:id="@+id/tvQB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="QUESTION BANKS"
+        android:textColor="@android:color/white"
+        android:background="@android:color/transparent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/transparent"
+        android:gravity="center|center_horizontal"
+        android:text="Finance"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:gravity="center|center_horizontal"
+        android:text="Health Care"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:gravity="center|center_horizontal"
+        android:text="Education"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:gravity="center|center_horizontal"
+        android:text="Agriculture"
+        android:textColor="#FFF" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
